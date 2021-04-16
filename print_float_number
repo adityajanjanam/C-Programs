@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {   
+    float n;
+   
+    printf("Enter an integer: ");  
+    
+    // reads and stores input
+    scanf("%f", &n);
+
+    // displays output
+    printf("You entered: %f", n);
+    
+    return 0;
+}
