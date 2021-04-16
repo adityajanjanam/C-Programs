@@ -1,0 +1,36 @@
+#include <stdio.h>
+int
+main ()
+{
+  
+int number;
+  
+ 
+printf ("Enter an integer: ");
+  
+ 
+    // reads and stores input
+    scanf ("%d", &number);
+  
+ 
+if (number % 2 == 0)
+    {
+      
+printf ("Even number");
+    
+}
+  
+  else if (number % 2 != 0)
+    
+    {
+      
+printf ("Odd number");
+    
+}
+  
+ 
+ 
+ 
+return 0;
+
+}
